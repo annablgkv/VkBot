@@ -4,7 +4,7 @@ import datetime
 
 print('VKBot')
 # или с помощью id приложения и данных авторизации пользователя
-session = vk.AuthSession('5730806', '+79885372442', 'korova,90')
+session = vk.Session('371835ed81133bf5945bffb622f69d074c3be408608053e149478c1b2206ac79364361789e9a31ec8ae8d')
 api = vk.API(session)
 while(True):
     messages = api.messages.get()
