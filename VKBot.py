@@ -3,7 +3,8 @@ import time
 import datetime
 
 print('VKBot')
-session = vk.Session('8d1690182614c0f61d23ca3607bdc983f1af1c051b340d2c75bb7e1b0be78d5298724388c5d8a904e5173')
+# или с помощью id приложения и данных авторизации пользователя
+session = vk.AuthSession('5730806', '+79885372442', 'korova,90')
 api = vk.API(session)
 while(True):
     messages = api.messages.get()
