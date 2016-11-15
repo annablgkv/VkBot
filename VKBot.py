@@ -3,7 +3,7 @@ import time
 import datetime
 
 print('VKBot')
-session = vk.Session('c03da0447143d7e7c48474fa3db3da860117dac46e34fc48a5ae00e4e7122b98d159fa4054d3d21bea485')
+session = vk.Session('8d1690182614c0f61d23ca3607bdc983f1af1c051b340d2c75bb7e1b0be78d5298724388c5d8a904e5173')
 api = vk.API(session)
 while(True):
     messages = api.messages.get()
