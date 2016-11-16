@@ -4,7 +4,7 @@ import datetime
 
 print('VKBot')
 
-session = vk.AuthSession('5730806', '+79885372442', 'korova,90')
+session = vk.AuthSession('5731299', '+380502769076', 'korova,90')
 api = vk.API(session)
 while(True):
     messages = api.messages.get()
